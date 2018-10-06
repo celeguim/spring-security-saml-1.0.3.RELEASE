@@ -62,7 +62,6 @@ Register yourself at www.ssocircle.com and login to the service.
 Select Metadata manager and click Add new Service Provider.
 
 Enter entityId configured in Section 4.2.3, “Generation of SP metadata” in the FQDN field.
-
 Paste content of clipboard into the metadata information textarea.
 
 Store metadata by pressing the Submit button.
@@ -77,5 +76,3 @@ Pressing local logout will destroy local session and logout the user. While a se
 Pressing global logout will destroy both local session and the session at IDP.
 
 You can test IDP initialized single sign-on with URL https://idp.ssocircle.com:443/sso/saml2/jsp/idpSSOInit.jsp?metaAlias=/publicidp&spEntityID=replaceWithUniqueIdentifier, after replacing the service provider identifier with the one configured as entityId in your securityContext.xml. It is possible to provide relayState data sent to your SP with parameter RelayState.
-
-
